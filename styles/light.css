@@ -28,22 +28,22 @@
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
+  :root.theme-auto {
     --page-bg-image: url(../images/cover-image-light.png);
-    --page-bg-color: #fff1f7;
+    --page-bg-color: #000028;
+
+    --text-color: #353430;
+    --text-secondary-color: #353430;
+    --accent-text-color: #353430;
 
     --accent-color: #ff8dcb;
     --secondary-color: #ffc2e6;
-
-    --accent-text-color: #353430;
-    --text-color: #353430;
-    --text-secondary-color: #353430;
 
     --border-color: #353430;
     --outline-color: #353430;
   }
 
-  .theme-light .header__rec {
-    display: block;
+  .theme-auto .header__rec {
+    display: none;
   }
 }
