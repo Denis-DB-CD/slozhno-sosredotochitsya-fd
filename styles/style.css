@@ -230,7 +230,7 @@
   }
 
   .header__text {
-    grid-column: -3 / -1; 
+    grid-column: -3 / -1;
   }
 }
 
