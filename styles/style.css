@@ -217,7 +217,7 @@
 
 .main__card-title,
 .main__gallery-title {
-  font-size: clamp(1.125rem, 1.0549rem + 0.3049vw, 1.125rem);
+  font-size: clamp(1.125rem, 1.0549rem + 0.3049vw, 1.25rem);
   margin-bottom: 10px;
 }
 
